@@ -1,0 +1,5 @@
+# C++ 源码含 UTF-8 BOM 与中文，保持字节原样，避免 git 转换行尾破坏编码
+* -text
+
+# 批处理必须是 CRLF（LF 在 cmd 下会触发「命令不存在」）
+*.bat text eol=crlf

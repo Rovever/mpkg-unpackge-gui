@@ -1,0 +1,2 @@
+/* mpkg_gui.exe application icon (numeric ID avoids a generated resource.h) */
+4001 ICON "assets/mpkg-icon.ico"

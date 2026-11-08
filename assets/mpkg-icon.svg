@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title desc">
+  <title id="title">mpkg 解包工具</title>
+  <desc id="desc">蓝色圆角底上，两张文件从一个打开的白色包箱中取出，中央向下的箭头表示解包输出。</desc>
+
+  <!-- 背景 -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="#2563EB"/>
+
+  <!-- 后层文件 + 折角 -->
+  <path d="M56 18 H92 V66 H56 Z" fill="#BFDBFE"/>
+  <path d="M80 18 L92 30 H80 Z" fill="#93C5FD"/>
+
+  <!-- 前层文件 + 折角 + 内容横纹 -->
+  <path d="M36 30 H72 V78 H36 Z" fill="#FFFFFF"/>
+  <path d="M60 30 L72 42 H60 Z" fill="#DBEAFE"/>
+  <path d="M43 52 H65 M43 60 H58" fill="none" stroke="#BFDBFE" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- 包箱本体 -->
+  <rect x="20" y="70" width="88" height="36" rx="9" fill="#FFFFFF"/>
+  <!-- 箱口沿压在文件下缘，形成「从箱中取出」的层次 -->
+  <rect x="16" y="62" width="96" height="14" rx="6" fill="#EFF6FF"/>
+
+  <!-- 输出箭头 -->
+  <path d="M64 80 V96" fill="none" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+  <path d="M56 90 L64 100 L72 90" fill="none" stroke="#2563EB" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
